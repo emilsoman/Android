@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="titleStatusUpdate">Status Update</string>
+    <string name="app_name">LearningDemo</string>
+    <string name="textEditorHintStatus">Please enter your status message</string>
+    <string name="buttonSubmitStatus">Update</string>
+    <string name="textStatusCharactersLeft">150</string>
+    <string name="toastStatusUpdated">Status updated successfully</string>
+    <string name="toastStatusNotUpdated">Status update failed</string>
+    <string name="menuStartService">Start Service</string>
+    <string name="menuStopService">Stop Service</string>
+    <string name="toastServiceStarted">Service started successfully</string>
+    <string name="toastServiceNotStarted">Service could not be started</string>
+    <string name="toastServiceStopped">Service stopped successfully</string>
+    <string name="menuRefreshUpdates">Refresh Updates</string>
+
+</resources>
