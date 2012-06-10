@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>jQuery Google Maps Plugin</title>
+	  <link rel="stylesheet" href="mapapp.css" type="text/css">
+	  
+	  <script type="text/javascript" charset="utf-8" src="cordova-1.6.1.js"></script>
+	  
+	  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+	   <script type="text/javascript" src="jquery.ui.map/jquery.ui.map.js"></script>
+ <script type="text/javascript" src="jquery.ui.map/jquery.ui.map.services.js"></script> 
+	  <script type="text/javascript" charset="utf-8" src="mapapp.js"></script>
+	  
+	  
+	  <script type="text/javascript" charset="utf-8">
+      
+        var onDeviceReady = function() {
+            document.getElementById("devready").innerHTML = "OnDeviceReady fired.";
+        };
+
+        function init() {
+            document.addEventListener("deviceready", onDeviceReady, true);
+        }   
+</script>  
+
+  </head>
+  <body onload="init();" id="stage" class="theme">
+    <h2>Adam</h2>
+
+	<p>Your app goes here.</p>
+	<p>
+    <span id="devready">onDeviceReady not fired.</span>
+    </p>
+
+  </body>
+</html>
