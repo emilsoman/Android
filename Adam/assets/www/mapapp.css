@@ -9,3 +9,11 @@
 	padding: .6em; text-shadow: none; text-align: center; margin: 120px auto; font-weight: bold;
     border: 0; max-width: 260px; min-width: 110px; 
 }
+
+.vertical-middle{
+	position: absolute; 
+	top: 50%; 
+	margin-top: -1.2em;
+	width:100%; 
+	margin-left: -1em;
+}
